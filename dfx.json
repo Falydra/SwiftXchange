@@ -1,0 +1,25 @@
+{
+    "canisters": {
+        "ic-project-backend": {
+            "main": "src/ic-project-backend/main.mo",
+            "type": "motoko"
+        },
+        "swiftxchange": {
+            "dependencies": [
+                "ic-project-backend"
+            ],
+            "source": [
+                "src/swiftxchange-fe/assets"
+            ],
+            "type": "assets"
+        }
+    },
+    "defaults": {
+        "build": {
+            "args": "",
+            "packtool": ""
+        }
+    },
+    "output_env_file": ".env",
+    "version": 1
+}
