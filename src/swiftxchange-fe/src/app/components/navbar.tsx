@@ -11,13 +11,13 @@ export default function Navbar() {
 
                 <div className="flex-row flex w-full h-full items-center justify-center gap-8">
                     <h1 className="font-semibold text-xl text-white">
-                        SwiftXchange
+                        Home
                     </h1>
                     <h1 className="font-semibold text-xl text-white">
-                        SwiftXchange
+                        Marketplace
                     </h1>
                     <h1 className="font-semibold text-xl text-white">
-                        SwiftXchange
+                        
                     </h1>
                 </div>
                 <div className="flex-row flex w-full h-full items-end justify-end">
